@@ -15,7 +15,7 @@ body {
     position: relative;
     cursor: pointer;
     transform-style: preserve-3d;
-    transition: transform 0.8s;
+    transition: transform 0.4s;
 }
 
 .card-front, .card-back {
@@ -58,4 +58,5 @@ body {
     .card-container:active {
         transform: rotateY(180deg);
     }
+
 }
